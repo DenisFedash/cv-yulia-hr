@@ -97,7 +97,7 @@ body {
 
 .container-main {
     display: flex;
-    background-color: #f0e9d8;
+    /* background-color: #f0e9d8; */
     background-repeat: no-repeat;
     background-position: initial;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
