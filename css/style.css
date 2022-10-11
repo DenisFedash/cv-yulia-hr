@@ -1,7 +1,8 @@
 img {
     display: block;
     max-width: 370px;
-    height: auto;
+    height: auto;  
+    padding: 20px;
 }
 
 .list {
@@ -46,14 +47,14 @@ body {
 }
 
 .image-header {
-    margin-right: 88px;
+    margin-right: 88px;     
 }
 
 .header-title {
-    font-family: Roboto Slab;
+    font-family: 'Blacker Sans Text';
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 1.22;
 
     padding-bottom: 19px;
@@ -61,10 +62,10 @@ body {
 }
 
 .header-text {
-    font-family: Roboto Slab;
+    font-family: 'Blacker Sans Text';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1.21;
     
     padding-bottom: 35px;
@@ -76,9 +77,10 @@ body {
 }
 
 .contact-list {
-    font-family: Roboto Slab;
-    font-size: 18px;
-    line-height: 1.21;
+    font-family: 'Blacker Sans Text';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.31;
 }
 
 .contact-list_item:not(:last-child) {
@@ -92,7 +94,7 @@ body {
 
 .container-main {
     display: flex;
-    /* background-color: #f0e9d8; */
+    background-color:#e5e6e1;
     background-repeat: no-repeat;
     background-position: initial;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
@@ -100,8 +102,8 @@ body {
 
 .container-main_first {
     width: 370px;
-    margin-right: 45px;
-    background-color: #bfb1a4;
+    margin: 30px 45px 30px 25px;
+    background-color: #c7bdbb;
 }
 
 .container-main_second{
@@ -113,23 +115,19 @@ body {
 }
 
 .main_title {
-    font-family: Roboto Slab;
+    font-family: 'Blacker Sans Text';
     font-weight: bold;
     font-size: 22px;
-    line-height: 1.22;
+    line-height: 1.31;
 
     text-transform: uppercase;
     padding-bottom: 5px;
 }
 
-.prof-title {
-    font-size: 18px;
-}
-
 .main_text {
-    font-family: Roboto Slab;
-    font-size: 15px;
-    line-height: 1.71;
+    font-family: 'Blacker Sans Text';
+    font-size: 18px;
+    line-height: 1.31;
 
     text-align: justify;
 }
@@ -139,17 +137,17 @@ body {
 }
 
 .workt-title {
-    font-family: Roboto Slab;
+    font-family: 'Blacker Sans Text';
     font-weight: bold;
     font-size: 18px;
-    line-height: 1.22;
+    line-height: 1.31;
 }
 
 .work-text {
-    font-family: Roboto Slab;
-    font-size: 14px;
+    font-family: 'Blacker Sans Text';
+    font-size: 18px;
     font-weight: bold;
-    line-height: 1.71;
+    line-height: 1.31;
     color: var(--color-text);
 }
 
@@ -162,15 +160,20 @@ body {
 }
 
 .education {
-    color: var(--color-text);
     font-weight: bold;
 }
 
 .text-education {
-    color: var(--border-color);
     font-weight: normal;
 }
 
 .project {
     margin-right: 5px;
+}
+
+@font-face {
+    font-family: "Blacker Sans Text";
+    src: url("../fonts/BlackerSansText-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
