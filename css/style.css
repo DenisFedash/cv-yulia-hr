@@ -25,7 +25,8 @@ p {
 
 body {
     width: 1024px;
-    padding: 30px;
+    height: auto;
+    /* padding: 30px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -146,7 +147,7 @@ body {
 .work-text {
     font-family: 'Blacker Sans Text';
     font-size: 18px;
-    font-weight: bold;
+   
     line-height: 1.31;
     color: var(--color-text);
 }
@@ -163,12 +164,20 @@ body {
     font-weight: bold;
 }
 
+.education:not(:last-child){
+    margin-bottom: 15px;
+}
+
 .text-education {
     font-weight: normal;
 }
 
 .project {
     margin-right: 5px;
+}
+
+.bottom-margin{
+    margin-bottom: 163px;
 }
 
 @font-face {
