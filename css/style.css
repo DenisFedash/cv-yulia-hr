@@ -187,3 +187,15 @@ body {
 .link-color{
     color: black;
 }
+
+.space{
+    margin-right: 4px;
+}
+
+.tools{    
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 1.31;
+}
+
+
