@@ -43,7 +43,11 @@ body {
 
 .mini-container {
     margin-bottom: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;    
+}
+
+.mini-container:last-child{
+    margin-bottom: 212px;
 }
 
 .image-header {
@@ -96,7 +100,7 @@ body {
     display: flex;
     background-color:#e5e6e1;
     background-size: 100%;
-    min-height: 100vh;
+    height: 100% auto;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);    
 }
 
@@ -104,6 +108,7 @@ body {
     width: 370px;
     margin: 30px 45px 30px 25px;
     background-color: #c7bdbb;
+    height: 100% auto;
 }
 
 .container-main_second{
