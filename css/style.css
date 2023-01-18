@@ -95,8 +95,6 @@ body {
 .container-main {
     display: flex;
     background-color:#e5e6e1;
-    /* background-repeat: no-repeat;
-    background-position: initial; */
     background-size: 100%;
     min-height: 100vh;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);    
